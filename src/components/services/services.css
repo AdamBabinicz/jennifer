@@ -26,6 +26,7 @@
   display: inline-flex;
   align-items: center;
   column-gap: 0.25rem;
+  cursor: pointer;
 }
 .services__button-icon {
   font-size: 1rem;
@@ -65,22 +66,25 @@
   color: var(--title-color);
   cursor: pointer;
 }
-.services__modal-title,
-.services__modal-description {
-  text-align: center;
-}
 .services__modal-title {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-1);
+  text-align: center;
 }
 .services__modal-description {
   font-size: var(--small-font-size);
   padding: 0 3.5rem;
   margin-bottom: var(--mb-2);
+  text-align: left;
 }
 .services__modal-services {
   row-gap: 0.75rem;
+}
+.services__modal-services img {
+  height: 300px;
+  width: 100%;
+  object-fit: contain;
 }
 .services__modal-service {
   display: flex;
@@ -114,7 +118,7 @@
 /* For medium devices */
 @media only screen and (max-width: 768px) {
   .services__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   .services__content {
     padding: 3.5rem 0.5rem 1.25rm 1.5rem;
