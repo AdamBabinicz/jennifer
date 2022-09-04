@@ -20,7 +20,7 @@ const Data = () => {
         jej do szczęścia potrzebny. Więcej nawet – czuła do niego odrazę."
       </h3>
       <p className="home__description">
-        "Powiedziałam do Boga: „Zabierz ten brak pokoju w moim życiu albo
+        "Powiedziałam do Boga: „Zabierz ten brak pokoju w&nbsp;moim życiu albo
         powiedz mi, co mam zrobić”. I&nbsp;pomysł po prostu przyszedł mi do
         głowy. Siedziałam przy biurku po skończonej audycji radiowej.
         I&nbsp;nagle pojawiło się bardzo nagłe i&nbsp;bardzo silne natchnienie,
@@ -42,13 +42,15 @@ const Data = () => {
             className="uil uil-times services__modal-close"
           ></i>
           <h3 className="services__modal-title">
-            Jennifer Fulwiler, była ateistyczna blogerka, a obecnie katoliczka
+            Jennifer Fulwiler, była ateistyczna blogerka, a&nbsp;obecnie
+            katoliczka
           </h3>
           <p className="services__modal-description">
             Zanim została pisarką, pracowała jako programistka stron
-            internetowych i ukończyła z wyróżnieniem University of Texas na
-            wydziale reklamy ze szczególnym uwzględnieniem nowych mediów.
-            Mieszka z mężem i sześciorgiem małych dzieci w Austin w Teksasie.
+            internetowych i&nbsp;ukończyła z&nbsp;wyróżnieniem University of
+            Texas na wydziale reklamy ze szczególnym uwzględnieniem nowych
+            mediów. Mieszka z mężem i&nbsp;sześciorgiem małych dzieci
+            w&nbsp;Austin w&nbsp;Teksasie.
           </p>
           <ul className="services__modal-services grid">
             <img src={img1} alt="..." />
