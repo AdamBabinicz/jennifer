@@ -81,11 +81,11 @@
 .services__modal-services {
   row-gap: 0.75rem;
 }
-/* .services__modal-services img {
+.services__modal-services img {
   height: 300px;
   width: 100%;
   object-fit: contain;
-} */
+}
 .services__modal-service {
   display: flex;
   align-items: center;
